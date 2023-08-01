@@ -126,6 +126,20 @@ button:hover {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilos para tablet (768px) */
+@media screen and (max-width: 768px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards por fila en modo tablet */
+    }
+}
+
+/* Estilos para celular (600px) */
+@media screen and (max-width: 600px) {
+    .card-grid {
+        grid-template-columns: 1fr; /* 1 card por fila en modo celular */
+    }
+}
+
 .card img {
     width: 100%;
     border-radius: 5px;
@@ -156,8 +170,34 @@ button:hover {
     background-color: #0056b3;
 }
 
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
 
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links .img2 {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+}
+
+.footer p {
+    font-size: 14px;
+}
 
 
 
