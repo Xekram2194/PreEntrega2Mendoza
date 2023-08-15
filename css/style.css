@@ -203,5 +203,55 @@ button:hover {
     height: auto;
 }
 
+/* ... Estilos previos ... */
+
+.contact-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contact-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.contact-section form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.contact-section button:hover {
+    background-color: #0056b3;
+}
 
 
